@@ -9,3 +9,9 @@ An unofficial bedrock behavior pack of freeCam
 2.And type "off" to shutdown the free camera.
 
 ![image](https://github.com/arrive-software/freeCamera/blob/main/demopicture/Screenshot_20250218-220651.png)
+
+### Indicate the location
+
+freeCamera uses an armor stand named after "a" plus your name as a sign to indicate your position in the world.
+
+![image](https://github.com/arrive-software/freeCamera/blob/main/demopicture/Screenshot_20250218-220641.png)
