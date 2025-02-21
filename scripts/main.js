@@ -57,6 +57,13 @@ function teleportAndRemoveSavedLocation(player) {
     } else {
     }
 }
+//重置玩家状态的函数
+function playerAssistant(player){
+    const armorName = "a" + player.name
+    player.runCommand('tag @s remove outOfBody');
+    player.runCommand('gamemode default');
+    player.runCommand(`kill @e[name=${armorName}]`);
+}
 // 监听玩家聊天事件
 world.afterEvents.chatSend.subscribe((event) => {
     const { message } = event;
@@ -68,6 +75,8 @@ world.afterEvents.chatSend.subscribe((event) => {
     // 玩家输入“关闭”时传送到保存的坐标点并删除坐标点信息
     if (message === "off") {
         teleportAndRemoveSavedLocation(player);
-    }else{
+    }
+    if (message === "help"){
+        playerAssistant(player);
     }
 });
