@@ -1,10 +1,10 @@
 {
   "format_version": 2,
   "header": {
-    "description": "作者:p299 联合作者:Jason Lee\n github repository苦力怕论坛:https://klpbbs.com/space-uid-409002.html",
+    "description": "作者:p299 联合作者:Jason Lee\n github repository:https://github.com/arrive-software/freeCamera\n苦力怕论坛:https://klpbbs.com/space-uid-409002.html",
     "name": "FreeCamera",
     "uuid": "d359881b-b739-49e3-a980-5917731e392d",
-    "version": [0,1,4],
+    "version": [0,1,5],
     "min_engine_version": [1,19,0]
   },
   "modules": [
@@ -12,7 +12,7 @@
       "description": "FreeCamera",
       "type": "script",
       "uuid": "dc11dde6-dbd3-493d-adb0-2055828d4ddb",
-      "version": [0,1,4],
+      "version": [0,1,5],
       "entry": "scripts/main.js"
     }
   ],
